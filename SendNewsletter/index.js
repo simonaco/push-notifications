@@ -13,9 +13,9 @@ module.exports = function(context, req) {
   // sample notification payload
   const notificationPayload = {
     notification: {
-      title: 'Angular News',
+      title: 'PWA News',
       body: 'Newsletter Available!',
-      icon: 'assets/main-page-logo-small-hat.png',
+      icon: 'https://i.imgur.com/zPwJsyN.png',
       vibrate: [100, 50, 100],
       data: {
         dateOfArrival: Date.now(),
