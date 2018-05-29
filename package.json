@@ -1,0 +1,15 @@
+{
+  "name": "serverless-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "azure-functions-core-tools": "^2.0.1-beta.28",
+    "web-push": "^3.3.1"
+  }
+}
