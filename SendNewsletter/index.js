@@ -13,8 +13,8 @@ module.exports = function(context, req) {
   // sample notification payload
   const notificationPayload = {
     notification: {
-      title: 'PWA News',
-      body: 'Newsletter Available!',
+      title: 'No news today',
+      body: "You're awesome!!",
       icon: 'https://i.imgur.com/zPwJsyN.png',
       vibrate: [100, 50, 100],
       data: {
